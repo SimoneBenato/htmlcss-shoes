@@ -10,6 +10,29 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* css nav */
+
+nav {
+    position: fixed;
+    top: 4vh;
+    right: 3vw;
+    z-index: 20;
+    padding: 30px;
+}
+
+nav a {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* css pagina */
+
 .page {
     position: relative;
     width: 100%;
@@ -18,8 +41,8 @@ body{
 
 .wrapper {
     position: absolute;
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -29,6 +52,10 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+h2 {
+    text-align: center;
 }
 
 /* css colori */
